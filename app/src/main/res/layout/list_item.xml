@@ -12,6 +12,11 @@
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
@@ -38,4 +43,15 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"/>
     </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_play_arrow_white_24dp" />
+
+    </RelativeLayout>
+
 </LinearLayout>
